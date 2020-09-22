@@ -20,7 +20,7 @@
 | street_address              | string  | null: false |
 | building                    | integer | null: true  |
 | phone_number                | string  | null: false |
-| shoe_size                   | integer | null: true  |
+| shoe_size                   | integer | null: false |
 
 ### Association
 
@@ -42,7 +42,7 @@
 | street_address        | string  | null: false |
 | building              | integer | null: true  |
 | company_phone_number  | string  | null: false |
-| mobile                | string  | null: false |
+| mobile                | string  | null: true  |
 
 ### Association
 
