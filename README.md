@@ -60,9 +60,17 @@
 | body_figure_id (Active Hush)   | integer | null: false                    |
 | shipping_date_id (Active Hush) | integer | null: false                    |
 | description                    | text    | null: false                    |
-| tops_price                     | integer | null: false                    |
+| tops1_price                    | integer | null: false                    |
+| tops2_price                    | integer | null: true                     |
+| tops3_price                    | integer | null: true                     |
+| tops4_price                    | integer | null: true                     |
+| tops5_price                    | integer | null: true                     |
 | bottoms_price                  | integer | null: false                    |
-| shoes_price                    | integer | null: false                    |
+| socks_price                    | integer | null: true                     |
+| shoes_price                    | integer | null: true                     |
+| accessories1_price             | integer | null: true                     |
+| accessories2_price             | integer | null: true                     |
+| accessories3_price             | integer | null: true                     |
 | total_price                    | integer | null: false                    |
 | supplier                       | integer | null: false, foreign_key: true |
 
